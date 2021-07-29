@@ -1,0 +1,25 @@
+The respostory contains python learning materials, including solutions to problems using python prorgramming and logic
+
+...Initialise a new local git repository.
+git init (to intiate git repository locally)
+
+...Create a new file hello.py that prints “Hello World!”
+echo "print(\'Hello World\')" > hello.py
+
+...Stage hello.py and create an “Initial commit”. 
+git add * or git add hello.py (to stage)
+git commit -m "Added Hello" (to commit the file and a message addeed as -m)
+
+...Create a new repository and Link the remote repository to your local one.
+git remote add origin git@github.com:idada29/useful_python.git (connect to a remote git repository)
+
+...Confirm this is successful on the remote providers web interface.
+git remote (to check status of remote connection and confirm succesful connection with the remote web interface)
+git remote -v (to check the version of both local and remote repository)
+
+...Do a git push to sync your local repository with the remote. 
+git remote add origin git@github.com:idada29/useful_python.git
+git branch -M main
+git push -u origin main
+
+
